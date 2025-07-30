@@ -1,0 +1,225 @@
+.roadmapcontainer {
+  background-image: url("../images/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+}
+.map {
+  width: 100%;
+}
+.destination {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.pack {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: #18181bb2;
+  font-family: "Inter";
+}
+button img {
+  width: 14px;
+}
+.line2 {
+  display: flex;
+  gap: 12px;
+}
+.sbsquare,
+.abmonastery,
+.khtogoo,
+.tslake,
+.khlake {
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 500;
+}
+.schedule {
+  margin: 59px 120px 0px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.day1,
+.day2,
+.day3,
+.day4,
+.day5 {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f7f6f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 184px;
+  background-color: #eee9d9;
+  height: 112px;
+  width: 513px;
+  border: none;
+  border-radius: 120px;
+}
+.line2 p {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: #18181b;
+  font-weight: 400;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 78px;
+  background-color: #8bb8c1cc;
+  height: 112px;
+  width: 513px;
+  border: none;
+  border-radius: 120px;
+}
+.btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 230px;
+  background-color: #aad8d7cc;
+  height: 112px;
+  width: 513px;
+  border: none;
+  border-radius: 120px;
+}
+.btn4 {
+  display: flex;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  background-color: #8bc0bdcc;
+}
+.btn5 {
+  display: flex;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  gap: 240px;
+  background-color: #97cce0cc;
+}
+.btn1:hover {
+  border: solid 4px white;
+}
+.btn2:hover {
+  border: solid 4px white;
+}
+.btn3:hover {
+  border: solid 4px white;
+}
+.btn4:hover {
+  border: solid 4px white;
+}
+.btn5:hover {
+  border: solid 4px white;
+}
+.btn1:hover + .img-1 {
+  opacity: 1;
+}
+.btn2:hover + .img-2 {
+  opacity: 1;
+}
+.btn3:hover + .img-3 {
+  opacity: 1;
+}
+.btn4:hover + .img-4 {
+  opacity: 1;
+}
+.btn5:hover + .img-5 {
+  opacity: 1;
+}
+.img-1 {
+  z-index: 1;
+  width: 250px;
+  position: absolute;
+  top: 70px;
+  left: 930px;
+  opacity: 0;
+}
+.img-2 {
+  z-index: 1;
+  width: 250px;
+  position: absolute;
+  top: -30px;
+  left: 705px;
+  opacity: 0;
+}
+.img-3 {
+  z-index: 1;
+  width: 250px;
+  position: absolute;
+  top: 90px;
+  left: 600px;
+  opacity: 0;
+}
+.img-4 {
+  z-index: 1;
+  width: 250px;
+  position: absolute;
+  top: -85px;
+  left: 550px;
+  opacity: 0;
+}
+.img-5 {
+  z-index: 1;
+  width: 250px;
+  position: absolute;
+  top: -70px;
+  left: 702px;
+  opacity: 0;
+}
+
+.map {
+  display: flex;
+}
+.pincontainer {
+  position: relative;
+}
+
+.pin1 {
+  position: absolute;
+  top: 98px;
+  left: 198px;
+  width: 34px;
+  height: 34px;
+}
+.pin2 {
+  position: absolute;
+  top: 219px;
+  left: 26px;
+  width: 34px;
+  height: 34px;
+}
+.pin3 {
+  position: absolute;
+  top: 236px;
+  left: 411px;
+  width: 34px;
+  height: 34px;
+}
+.pin4 {
+  position: absolute;
+  top: 476px;
+  left: 198px;
+  width: 34px;
+  height: 34px;
+}

@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  background-image: url("../images/87cef5d5d40a9f22a64d6937ad2f7df5b04e3d85.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 773px;
+  /* width: 100%;
+    height: 60vh; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  /* background-color: aqua; */
+  padding-top: 30px;
+  padding-left: 118px;
+  padding-right: 118px;
+}
+
+.lanbtn {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 13px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  border: none;
+}
+.action {
+  font-size: 14px;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: #fff;
+  padding-right: 120px;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.logo-tour {
+  width: 101px;
+  height: 35px;
+  margin-bottom: 8.5px;
+}
+.maintxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 92px;
+}
+.txt1 {
+  color: rgba(232, 237, 242, 0.72);
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  color: rgba(232, 237, 242, 0.72);
+
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 80px */
+  text-transform: uppercase;
+}
+.txt2 {
+  color: rgba(253, 253, 254, 0.98);
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fdfdfe;
+  font-family: "Bebas Neue";
+  font-size: 250px;
+  font-style: normal;
+
+  line-height: 100%; /* 250px */
+}
+.txt3 {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-family: Hanuman;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 64px */
+}
+.Home,
+.About,
+.Contact {
+  width: 100px;
+  margin-top: 11px;
+  margin-bottom: 10.5px;
+}

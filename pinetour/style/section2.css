@@ -1,0 +1,128 @@
+.location-container {
+  background-image: url("../images/6bb474b8f154e12ab10e74d534a188674e4d8b4c.png");
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-left: 109px;
+  padding-right: 119px;
+}
+.card-container {
+  display: flex;
+  gap: 40px;
+}
+.terh-card,
+.amarbayasgalant-card,
+.khuvsgul-card,
+.khorgo-card {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+.terh-zurag,
+.amarbayasgalant-zurag,
+.khuvsgul-zurag,
+.khorgo-zurag {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.terh-card p {
+  position: absolute;
+  bottom: 141px;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  text-align: center;
+  opacity: 0.8;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  z-index: 1;
+  transition: 0.5s;
+}
+.terh-card p:hover + .terh-zurag {
+  filter: brightness(46%);
+}
+.amarbayasgalant-card p:hover ~ .amarbayasgalant-zurag {
+  filter: brightness(46%);
+}
+.khuvsgul-card p:hover ~ .khuvsgul-zurag {
+  filter: brightness(46%);
+}
+.khorgo-card p:hover + .khorgo-zurag {
+  filter: brightness(46%);
+}
+
+.amarbayasgalant-card p {
+  position: absolute;
+  bottom: 141px;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  text-align: center;
+  opacity: 0.8;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  z-index: 1;
+  transition: 0.5s;
+}
+.khuvsgul-card p {
+  position: absolute;
+  bottom: 163px;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  opacity: 0.8;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  z-index: 1;
+  transition: 0.5s;
+}
+.khorgo-card p {
+  position: absolute;
+  bottom: 163px;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  opacity: 0.8;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  transition: 0.5s;
+  z-index: 1;
+}
+.khorgo-zurag:hover {
+  filter: brightness(46%);
+}
+.khuvsgul-zurag:hover {
+  filter: brightness(46%);
+}
+.amarbayasgalant-zurag:hover {
+  filter: brightness(46%);
+}
+.terh-zurag:hover {
+  filter: brightness(46%);
+}
+.khorgo-card p:hover {
+  opacity: 1;
+}
+.khorgo-card:hover > p {
+  opacity: 1;
+}
+.terh-card p:hover {
+  opacity: 1;
+}
+.terh-card:hover > p {
+  opacity: 1;
+}
+.amarbayasgalant-card p:hover {
+  opacity: 1;
+}
+.amarbayasgalant-card:hover > p {
+  opacity: 1;
+}
+.khuvsgul-card p:hover {
+  opacity: 1;
+}
+.khuvsgul-card:hover > p {
+  opacity: 1;
+}
